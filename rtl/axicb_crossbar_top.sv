@@ -12,7 +12,7 @@
 `timescale 1 ns / 1 ps
 `default_nettype none
 
-`include "axicb_checker.sv"
+// `include "axicb_checker.sv"
 
 module axicb_crossbar_top
 
@@ -352,7 +352,7 @@ module axicb_crossbar_top
     ///////////////////////////////////////////////////////////////////////////
     // Parameters setup checks
     ///////////////////////////////////////////////////////////////////////////
-
+/* 
     initial begin
 
         `CHECKER((MST0_OSTDREQ_NUM>0 && MST0_OSTDREQ_SIZE==0),
@@ -375,7 +375,7 @@ module axicb_crossbar_top
 
 
     end
-
+ */
 
     ///////////////////////////////////////////////////////////////////////////
     // Local declarations
