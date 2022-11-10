@@ -46,14 +46,14 @@ module axicb_switch_top
         parameter MST3_PRIORITY = 0,
 
         // Slaves memory mapping
-        parameter SLV0_START_ADDR = 0,
-        parameter SLV0_END_ADDR = 4095,
-        parameter SLV1_START_ADDR = 4096,
-        parameter SLV1_END_ADDR = 8191,
-        parameter SLV2_START_ADDR = 8192,
-        parameter SLV2_END_ADDR = 12287,
-        parameter SLV3_START_ADDR = 12288,
-        parameter SLV3_END_ADDR = 16383,
+        parameter [AXI_ADDR_W-1:0] SLV0_START_ADDR = 0,
+        parameter [AXI_ADDR_W-1:0] SLV0_END_ADDR = 4095,
+        parameter [AXI_ADDR_W-1:0] SLV1_START_ADDR = 4096,
+        parameter [AXI_ADDR_W-1:0] SLV1_END_ADDR = 8191,
+        parameter [AXI_ADDR_W-1:0] SLV2_START_ADDR = 8192,
+        parameter [AXI_ADDR_W-1:0] SLV2_END_ADDR = 12287,
+        parameter [AXI_ADDR_W-1:0] SLV3_START_ADDR = 12288,
+        parameter [AXI_ADDR_W-1:0] SLV3_END_ADDR = 16383,
 
         // Channels' width (concatenated)
         parameter AWCH_W = 8,
