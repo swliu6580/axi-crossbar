@@ -455,7 +455,7 @@ module axicb_crossbar_top
     .SLV_NB            (SLV_NB),
     .STRB_MODE         (STRB_MODE),
     .AXI_SIGNALING     (AXI_SIGNALING),
-    .MST_CDC           (MST0_CDC | MST1_CDC | MST2_CDC),
+    .MST_CDC           (MST0_CDC),
     .MST_OSTDREQ_NUM   (MST0_OSTDREQ_NUM),
     .MST_OSTDREQ_SIZE  (MST0_OSTDREQ_SIZE),
     .USER_SUPPORT      (USER_SUPPORT),
