@@ -786,7 +786,6 @@ module axicb_crossbar_top
     // AXI switching logic
     ///////////////////////////////////////////////////////////////////////////
 
-    // TODO: switch要修改什么？
     axicb_switch_top
     #(
     .AXI_ADDR_W         (AXI_ADDR_W),

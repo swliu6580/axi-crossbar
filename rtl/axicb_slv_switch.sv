@@ -115,18 +115,6 @@ module axicb_slv_switch
     logic [AXI_ADDR_W-1:0] slv3_start_addr = SLV3_START_ADDR[0+:AXI_ADDR_W];
     logic [AXI_ADDR_W-1:0] slv3_end_addr =   SLV3_END_ADDR[0+:AXI_ADDR_W];
 
-
-    /* 
-    logic [AXI_ADDR_W-1:0] slv0_start_addr = SLV0_START_ADDR;
-    logic [AXI_ADDR_W-1:0] slv0_end_addr =   SLV0_END_ADDR;
-    logic [AXI_ADDR_W-1:0] slv1_start_addr = SLV1_START_ADDR;
-    logic [AXI_ADDR_W-1:0] slv1_end_addr =   SLV1_END_ADDR;
-    logic [AXI_ADDR_W-1:0] slv2_start_addr = SLV2_START_ADDR;
-    logic [AXI_ADDR_W-1:0] slv2_end_addr =   SLV2_END_ADDR;
-    logic [AXI_ADDR_W-1:0] slv3_start_addr = SLV3_START_ADDR;
-    logic [AXI_ADDR_W-1:0] slv3_end_addr =   SLV3_END_ADDR;
-     */
-
     logic                  w_misrouting;
     logic                  r_misrouting;
 
